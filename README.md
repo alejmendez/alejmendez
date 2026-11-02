@@ -1,64 +1,105 @@
-# Alejandro Méndez
+<div align="center">
 
-### Senior Software Engineer · Backend, integraciones y productos SaaS
+<img src="https://github.com/alejmendez.png?size=240" width="112" height="112" alt="Foto de Alejandro Méndez" />
 
-Soy ingeniero en Informática, con más de 15 años de experiencia en desarrollo de software y liderazgo técnico. Trabajo en APIs, sincronización entre plataformas y aplicaciones que convierten procesos manuales en flujos que se pueden operar y mantener.
+# Hola, soy Alejandro Méndez
 
-Mi experiencia más reciente combina **Ruby on Rails, Grails y sistemas multi-tenant**. También desarrollo productos con Laravel, Vue y TypeScript, y herramientas para facilitar el trabajo de otros desarrolladores.
+### Backend · Integraciones · Productos SaaS
 
-Santiago, Chile · [LinkedIn](https://www.linkedin.com/in/alejandro-mendez) · [Contacto](mailto:alejmendez.87@gmail.com)
+Conecto plataformas, automatizo procesos y construyo herramientas para quienes las usan cada día.
 
-## Proyectos seleccionados
+**Senior Software Engineer · 15+ años de experiencia · Santiago, Chile**
 
-### [TerraTrace](https://github.com/alejmendez/TerraTrace)
+[LinkedIn](https://www.linkedin.com/in/alejandro-mendez) · [Hablemos por correo](mailto:alejmendez.87@gmail.com)
 
-**Gestión agrícola, desde el registro de cosechas hasta la liquidación.**
+<p>
+<img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=flat-square" alt="Ruby on Rails" />
+<img src="https://img.shields.io/badge/Grails-2C3E50?style=flat-square" alt="Grails" />
+<img src="https://img.shields.io/badge/Laravel-B8322B?style=flat-square" alt="Laravel" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Vue-237A57?style=flat-square" alt="Vue" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169A1?style=flat-square" alt="PostgreSQL" />
+</p>
 
-Desarrollé una aplicación para centralizar información de campo, producción e inventario. Permite relacionar predios, plantas, cosechas y lotes para consultar el origen y el recorrido de la producción.
+</div>
 
-- Importación de cosechas desde Excel, con validación y control de duplicados.
-- Reportes de producción, ventas y merma mediante consultas SQL agregadas.
-- Estructura modular con Inertia y despliegue a AWS EC2 mediante GitHub Actions.
+## Sobre mí
 
-**Tecnologías:** Laravel · Vue · Inertia · MySQL · AWS · GitHub Actions
+Soy ingeniero en Informática. Mi trabajo combina desarrollo backend, integraciones entre productos y liderazgo técnico. Me interesan especialmente los problemas que aparecen cuando dos sistemas necesitan compartir información: qué sincronizar, cómo recuperarse de un fallo y cómo comprobar que el proceso terminó bien.
 
-[Código y capturas de la aplicación](https://github.com/alejmendez/TerraTrace#galería)
+Mi experiencia más reciente está en **Ruby on Rails, Grails y aplicaciones multi-tenant**. En mis proyectos también trabajo con **Laravel, Vue, React y TypeScript**.
 
-### [Grails Test Runner](https://github.com/alejmendez/grails-test-runner)
+## Lo que he llevado a producción
 
-**Pruebas de Grails y Spock directamente desde VS Code y Cursor.**
+Durante mi etapa en **Buk, de marzo de 2022 a septiembre de 2026**, trabajé en la integración entre Buk y Buk Asistencia.
 
-Creé una extensión que incorpora acciones CodeLens sobre clases y métodos de prueba. Permite ejecutar una prueba individual o una clase completa, distinguir pruebas unitarias y de integración, y forzar su ejecución cuando Gradle las considera actualizadas.
+| Resultado | Trabajo detrás |
+| :--- | :--- |
+| **De media jornada a ~5 minutos por flujo** | Sincronización bidireccional de licencias, permisos y ausencias, antes gestionadas en unos 180 clics. |
+| **Más de 14.000 eventos diarios** | Webhooks con reintentos automáticos y firmas HMAC entre ambos productos. |
+| **Operación en 5 países de Latinoamérica** | Extensión de las capacidades de aislamiento y configuración por tenant del producto. |
 
-**Tecnologías:** TypeScript · VS Code API · Grails · Spock · Gradle
+También lideré la adopción de la API interna en Buk Asistencia y creé skills para automatizar tareas de revisión y corrección de código con agentes de IA.
 
-[Instalación y demostración](https://github.com/alejmendez/grails-test-runner#grails-test-runner)
+## Proyectos para conocer mi trabajo
 
-### [Fortune Mill Save Editor](https://github.com/alejmendez/fortune-mill-editor)
+### TerraTrace · Software para la operación agrícola
 
-**Un editor de archivos binarios que funciona en el navegador.**
+Del predio a la liquidación: una aplicación para conectar cosechas, lotes, inventario y resultados de producción.
 
-Desarrollé un editor para abrir archivos `.sav`, modificar sus valores y guardar una nueva versión sin subir el archivo a un servidor. Incluye controles por categoría, soporte para BigInt y una comprobación de lectura y escritura sobre los bytes originales.
+[![Escritorio de TerraTrace con indicadores de cosecha y operación](https://raw.githubusercontent.com/alejmendez/TerraTrace/master/docs/images/dashboard-index.png)](https://github.com/alejmendez/TerraTrace)
 
-El proyecto incluye herramientas en Python y pruebas en Node.js para comprobar la compatibilidad del formato. La implementación se basa en el formato documentado por HolzMichel, a quien se acredita en el repositorio.
+Desarrollé la importación de cosechas desde Excel con validación y control de duplicados, reportes de producción, ventas y merma, y el despliegue a AWS EC2 con GitHub Actions.
 
-**Tecnologías:** JavaScript · formatos binarios · BigInt · File System Access API · Python · Node.js
+**Laravel · Vue · Inertia · MySQL · AWS**
 
-[Código y guía de uso](https://github.com/alejmendez/fortune-mill-editor)
+[Ver código y capturas de TerraTrace](https://github.com/alejmendez/TerraTrace)
 
-### [Frasevia](https://github.com/alejmendez/frasevia)
+### Grails Test Runner · Pruebas desde el editor
 
-**Tarjetas de estudio para aprender idiomas y repasar otros temas.**
+Creé una extensión para **VS Code y Cursor** que permite ejecutar pruebas Grails/Spock desde acciones CodeLens, sin escribir el comando de Gradle en cada ejecución. Distingue pruebas unitarias y de integración, y permite ejecutar un método o una clase completa.
 
-Una aplicación para explorar mazos, crear los propios y programar repasos. Incluye interfaz en español e inglés, seguimiento del progreso y generación opcional de tarjetas con IA.
+**TypeScript · VS Code API · Grails · Spock · Gradle**
 
-El proyecto combina una aplicación estática con autenticación y datos en Supabase. Las reglas de acceso a mazos y progreso se definen en PostgreSQL.
+[Ver extensión y demostración](https://github.com/alejmendez/grails-test-runner)
 
-**Tecnologías:** React · TypeScript · React Router · Supabase · PostgreSQL · Tailwind CSS
+### Frasevia · Aprender con tarjetas y repasos
 
-[Código y documentación](https://github.com/alejmendez/frasevia)
+Una aplicación para explorar y crear mazos, estudiar y programar repasos. Incluye interfaz en español e inglés, seguimiento del progreso y generación opcional de tarjetas con IA. Combina una aplicación estática con autenticación y reglas de acceso en Supabase.
 
-## Experiencia
+**React · TypeScript · React Router · Supabase · PostgreSQL**
+
+[Ver el proyecto Frasevia](https://github.com/alejmendez/frasevia)
+
+### Fortune Mill Save Editor · Archivos binarios en el navegador
+
+Desarrollé un editor de archivos `.sav` con soporte para BigInt, controles por categoría y comprobación de lectura y escritura. Todo se procesa localmente en el navegador. Incluye herramientas en Python y pruebas en Node.js, sobre el formato documentado por HolzMichel y acreditado en el repositorio.
+
+**JavaScript · BigInt · File System Access API · Python · Node.js**
+
+[Ver el editor y su funcionamiento](https://github.com/alejmendez/fortune-mill-editor)
+
+## Cómo trabajo
+
+- **Integraciones que se pueden verificar.** Considero reintentos, validación de mensajes y aislamiento de datos desde el diseño.
+- **Cambios que se pueden continuar.** Acompaño las decisiones técnicas con pruebas y documentación.
+- **Conocimiento compartido.** Participo en liderazgo técnico, mentoría y desarrollo de herramientas para el equipo.
+- **IA con revisión.** Uso asistentes en el desarrollo y valido los cambios mediante pruebas.
+
+## Mi caja de herramientas
+
+| Área | Tecnologías y prácticas |
+| :--- | :--- |
+| **Backend** | Ruby on Rails, Grails, Laravel, Node.js, Express, NestJS |
+| **Frontend** | Vue, Angular, React, JavaScript, TypeScript |
+| **Datos** | PostgreSQL, MySQL, MongoDB |
+| **Arquitectura** | APIs REST, webhooks, integraciones, SaaS, multi-tenant |
+| **Entrega y calidad** | AWS, Docker, GitHub Actions, CI/CD, Minitest, Spock |
+
+## Trayectoria y formación
+
+<details>
+<summary><strong>Ver experiencia profesional: Buk, TCS / Santander y Evertec</strong></summary>
 
 ### Buk · Software Engineer Level 3
 **Marzo de 2022 a septiembre de 2026**
@@ -87,24 +128,11 @@ Contribuí a la modernización de HUB mediante Andes, una plataforma para config
 
 **Angular · Java · Spring · Oracle**
 
-## Cómo trabajo
 
-- Diseño APIs e integraciones considerando los reintentos, la verificación de mensajes y el aislamiento de datos.
-- Acompaño las decisiones técnicas con pruebas automatizadas y documentación que permita continuar el trabajo.
-- Comparto conocimiento mediante mentoría y herramientas para el equipo.
-- Uso asistentes de IA en el desarrollo y valido los cambios mediante pruebas.
+</details>
 
-## Tecnologías
-
-| Área | Experiencia |
-| --- | --- |
-| Backend | Ruby on Rails, Grails, Laravel, Node.js, Express, NestJS |
-| Frontend | Vue, Angular, React, JavaScript, TypeScript |
-| Datos | PostgreSQL, MySQL, MongoDB |
-| Arquitectura | APIs REST, webhooks, integraciones, SaaS, multi-tenant |
-| Entrega | AWS, Docker, GitHub Actions, CI/CD |
-
-## Formación e idiomas
+<details>
+<summary><strong>Ver formación académica e idiomas</strong></summary>
 
 **Ingeniería en Informática**, IUTEB · 2011 a 2013.
 
@@ -112,8 +140,11 @@ También cursé la Licenciatura en Administración, mención Informática, en UN
 
 **Español nativo · Inglés intermedio**
 
+
+</details>
+
 ## Conversemos
 
-Puedes escribirme sobre desarrollo backend, integraciones, productos SaaS o cualquiera de estos proyectos.
+Si trabajas en backend, integraciones o productos SaaS, podemos conversar sobre un problema técnico o cualquiera de estos proyectos.
 
-[Contactar por LinkedIn](https://www.linkedin.com/in/alejandro-mendez) · [Enviar un correo](mailto:alejmendez.87@gmail.com)
+**[Escríbeme por LinkedIn](https://www.linkedin.com/in/alejandro-mendez)** · [Enviar un correo](mailto:alejmendez.87@gmail.com)
