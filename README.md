@@ -29,17 +29,19 @@ Soy ingeniero en Informática. Mi trabajo combina desarrollo backend, integracio
 
 Mi experiencia más reciente está en **Ruby on Rails, Grails y aplicaciones multi-tenant**. En mis proyectos también trabajo con **Laravel, Vue, React y TypeScript**.
 
-## Lo que he llevado a producción
+## Experiencia en producción
 
-Durante mi etapa en **Buk, de marzo de 2022 a septiembre de 2026**, trabajé en la integración entre Buk y Buk Asistencia.
+### Integración entre Buk y Buk Asistencia
 
-| Resultado | Trabajo detrás |
-| :--- | :--- |
-| **De media jornada a ~5 minutos por flujo** | Sincronización bidireccional de licencias, permisos y ausencias, antes gestionadas en unos 180 clics. |
-| **Más de 14.000 eventos diarios** | Webhooks con reintentos automáticos y firmas HMAC entre ambos productos. |
-| **Operación en 5 países de Latinoamérica** | Extensión de las capacidades de aislamiento y configuración por tenant del producto. |
+**Software Engineer Level 3 · Marzo de 2022 a septiembre de 2026**
 
-También lideré la adopción de la API interna en Buk Asistencia y creé skills para automatizar tareas de revisión y corrección de código con agentes de IA.
+La gestión de licencias, permisos y ausencias requería un flujo manual de media jornada, con unos 180 clics. Lideré su sincronización bidireccional entre ambos productos y reduje el tiempo a **aproximadamente 5 minutos por flujo**.
+
+Diseñé e implementé webhooks con reintentos automáticos y firmas HMAC para la sincronización entre sistemas, con un volumen de **más de 14.000 eventos diarios**. También lideré la adopción de la API interna en Buk Asistencia sin afectar las integraciones de clientes externos.
+
+Extendí las capacidades de aislamiento y configuración por tenant de un producto que opera en **cinco países de Latinoamérica**, añadiendo soporte para trabajadores tercerizados y consultas del portal fiscalizador.
+
+**Ruby on Rails · Grails · PostgreSQL · MySQL · Minitest · Spock**
 
 ## Proyectos para conocer mi trabajo
 
@@ -47,13 +49,19 @@ También lideré la adopción de la API interna en Buk Asistencia y creé skills
 
 Del predio a la liquidación: una aplicación para conectar cosechas, lotes, inventario y resultados de producción.
 
-[![Escritorio de TerraTrace con indicadores de cosecha y operación](https://raw.githubusercontent.com/alejmendez/TerraTrace/master/docs/images/dashboard-index.png)](https://github.com/alejmendez/TerraTrace)
-
 Desarrollé la importación de cosechas desde Excel con validación y control de duplicados, reportes de producción, ventas y merma, y el despliegue a AWS EC2 con GitHub Actions.
 
 **Laravel · Vue · Inertia · MySQL · AWS**
 
-[Ver código y capturas de TerraTrace](https://github.com/alejmendez/TerraTrace)
+[Ver código y documentación de TerraTrace](https://github.com/alejmendez/TerraTrace)
+
+<details>
+<summary><strong>Ver una captura de TerraTrace</strong></summary>
+<br>
+
+[![Escritorio de TerraTrace con indicadores de cosecha y operación](https://raw.githubusercontent.com/alejmendez/TerraTrace/master/docs/images/dashboard-index.png)](https://github.com/alejmendez/TerraTrace)
+
+</details>
 
 ### Grails Test Runner · Pruebas desde el editor
 
@@ -79,6 +87,16 @@ Desarrollé un editor de archivos `.sav` con soporte para BigInt, controles por 
 
 [Ver el editor y su funcionamiento](https://github.com/alejmendez/fortune-mill-editor)
 
+## Automatización del desarrollo con IA
+
+Creé skills para agentes de IA que cubren tareas concretas del flujo de revisión de código:
+
+- Revisar comentarios recibidos en code review.
+- Aplicar correcciones al código.
+- Subir los cambios y responder los comentarios de la revisión.
+
+Uso estas herramientas junto con pruebas para validar los cambios. Mi aporte incluye definir y ajustar las instrucciones de los agentes para estas tareas, además de utilizarlos durante el desarrollo.
+
 ## Cómo trabajo
 
 - **Integraciones que se pueden verificar.** Considero reintentos, validación de mensajes y aislamiento de datos desde el diseño.
@@ -99,20 +117,8 @@ Desarrollé un editor de archivos `.sav` con soporte para BigInt, controles por 
 ## Trayectoria y formación
 
 <details>
-<summary><strong>Ver experiencia profesional: Buk, TCS / Santander y Evertec</strong></summary>
-
-### Buk · Software Engineer Level 3
-**Marzo de 2022 a septiembre de 2026**
-
-Trabajé en la integración entre Buk y Buk Asistencia, con foco en sincronización, APIs internas y capacidades multi-tenant.
-
-- Lideré la sincronización bidireccional de licencias, permisos y ausencias: un flujo manual de media jornada y unos 180 clics pasó a tomar aproximadamente 5 minutos.
-- Diseñé e implementé webhooks con reintentos automáticos y firmas HMAC para procesar más de 14.000 eventos diarios entre ambos productos.
-- Lideré la adopción de la API interna en Buk Asistencia sin afectar las integraciones de clientes externos.
-- Extendí capacidades de aislamiento y configuración por tenant para un producto que opera en cinco países de Latinoamérica.
-- Creé skills para agentes de IA que automatizan tareas de revisión y corrección de código.
-
-**Ruby on Rails · Grails · PostgreSQL · MySQL · Minitest · Spock**
+<summary><strong>Ver experiencia anterior: TCS / Santander y Evertec</strong></summary>
+<br>
 
 ### Tata Consultancy Services / Banco Santander · Desarrollador de software
 **Noviembre de 2020 a febrero de 2022**
@@ -133,13 +139,18 @@ Contribuí a la modernización de HUB mediante Andes, una plataforma para config
 
 <details>
 <summary><strong>Ver formación académica e idiomas</strong></summary>
+<br>
 
-**Ingeniería en Informática**, IUTEB · 2011 a 2013.
+- **Ingeniería en Informática · IUTEB**  
+  2011 a 2013.
+- **Licenciatura en Administración, mención Informática · UNESR**  
+  2009 a 2011.
+- **Técnico Superior Universitario en Informática · IUTIRLA**  
+  2004 a 2007.
+- **Estudios de Magíster Scientiarum en Informática Gerencial · UDO**  
+  Tesis entregada y recibida; titulación pendiente.
 
-También cursé la Licenciatura en Administración, mención Informática, en UNESR y el Técnico Superior Universitario en Informática en IUTIRLA. Realicé estudios de Magíster Scientiarum en Informática Gerencial en la UDO: tesis entregada y recibida, con titulación pendiente.
-
-**Español nativo · Inglés intermedio**
-
+**Idiomas:** español nativo e inglés intermedio.
 
 </details>
 
